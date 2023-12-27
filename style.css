@@ -1,0 +1,525 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+}
+.navbar {
+    width: 100%;
+}
+.container {
+    width: 80%;
+    margin: 10vh auto;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.navbar__inline__span {
+    width: 41px;
+    height: 41px;
+    background-color: #458FF6;
+    border-radius: 50%;
+    /* padding: 10px; */
+    font-size: 30px;
+    color: #fff;
+    display: inline-block;
+    padding-left: 12px;
+    padding-top: 3px;
+    margin-left: 10px;
+}
+.navbar__inline__text {
+    color: #253851;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    display: inline-block;
+    margin-left: 15px;
+}
+.navbar__inline__ul {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+}
+.navbar__inline__ul__li {
+    color: #7D7987;
+    font-family: Muli;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.home {
+    color: #000;
+    font-weight: 700;
+}
+.header1 {
+    width: 85%;
+    display: flex;
+    margin: 15vh auto;
+    align-items: center;
+    justify-content: end;
+    gap: 12vw;
+}
+.header1__inline__div {
+    width: 35%;
+    display: inline-block;
+} 
+.header1__inline__div__h2 {
+    color: #000;
+    font-family: Muli;
+    font-size: 48px;
+}
+.header1__inline__div__text {
+    color: #7D7987;
+    font-family: Muli;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 32px;   
+}
+.header1__inline__div__button {
+    color: #FFF;
+    font-family: Muli;
+    font-size: 18px;
+    font-style: normal;
+    height: 40px;
+    width: 150px;
+    margin-top: 20px;
+    border-radius: 25px;
+    background-color: #458FF6;
+    border: none;
+    margin-left: 20px;
+}
+.header1__inline__img {
+    width: 48%;    
+}
+.services {
+    width: 60%;
+    margin: 5vh auto;
+}
+.services__inline__h2 {
+    color: #000;
+    font-family: Muli;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px; 
+    text-align: center;
+}
+.div {
+    width: 5vw;
+    height: 0.2vh;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #000;
+    margin: 0.8vw auto;
+}
+.services__inline__text{
+    color: #7D7987;
+    text-align: center;
+    font-family: Muli;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 30px; 
+}
+.Frame {
+    width: 80%;
+    margin: 5vw auto;
+}
+.Frame__inline__ul {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    gap: 2vw;
+} 
+.Frame__inline__ul__li {
+    width: 28%;
+}
+.Frame__inline__ul__li__img {
+    width: 69px;
+    flex-shrink: 0;
+    margin: 15px 20px;
+}
+.div2 {
+    width: 15%;
+    height: 20vh;
+    margin: 10vh auto;
+} 
+.button {
+    color: #458FF6;
+    font-family: Muli;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px; 
+    width: 200px;
+    height: 40px;
+    margin: 1vh auto;
+    text-align: center;
+    border-radius: 20px; 
+    border: 1px solid #7ab0fc;   
+}
+.Frame__inline__ul__li__h3 {
+    color: #000;
+    font-family: Muli;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px; 
+}
+.Frame__inline__ul__li__text {
+    color: #7D7987;
+    font-family: Muli;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px; 
+}
+.Header {
+    width: 85%;
+    display: flex;
+    margin: 15vh auto;
+    align-items: center;
+    justify-content: end;
+    gap: 12vw;
+}
+.Header__inline__div {
+    width: 35%;
+} 
+.Header__inline__div__h2 {
+    color: #000;
+    font-family: Muli;
+    font-size: 40px;
+}
+.Header__inline__div__text {
+    color: #7D7987;
+    font-family: Muli;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 32px;   
+}
+.Header__inline__div__button {
+    color: #FFF;
+    font-family: Muli;
+    font-size: 18px;
+    font-style: normal;
+    height: 7vh;
+    width: 15vw;
+    margin-top: 20px;
+    border-radius: 25px;
+    background-color: #458FF6;
+    border: none;
+    margin-left: 20px;
+}
+.Header__inline__img {
+    width: 48%;    
+}
+.div3 {
+    width: 5vw;
+    height: 0.2vh;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #000;
+    margin: 0.9vw 0px;
+}
+ 
+.Header {
+    width: 85%;
+    display: flex;
+    margin: 20vh auto;
+    align-items: center;
+    justify-content: end;
+    gap: 12vw;
+}
+.Header__inline__div {
+    width: 35%;
+} 
+.Header__inline__div__h2 {
+    color: #000;
+    font-family: Muli;
+    font-size: 40px;
+}
+.Header__inline__div__text {
+    color: #7D7987;
+    font-family: Muli;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 32px;   
+}
+.Header__inline__div__button {
+    color: #FFF;
+    font-family: Muli;
+    font-size: 18px;
+    font-style: normal;
+    height: 7vh;
+    width: 15vw;
+    margin-top: 20px;
+    border-radius: 25px;
+    background-color: #458FF6;
+    border: none;
+    margin-left: 20px;
+}
+.Header__inline__img {
+    width: 48%;    
+}
+.div3 {
+    width: 5vw;
+    height: 0.2vh;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #000;
+    margin: 0.9vw 0px;
+}
+.BOX {
+    width: 80%;
+    margin: 10vh auto;
+}
+.box {
+    border-radius: 24px;
+    margin: 10vh auto;
+    background: linear-gradient(208deg, #67C3F3 9.05%, #5A98F2 76.74%);
+    width: 100%;
+}
+.box__h2 {
+    text-align: center;
+    padding: 15px;
+    color: #FFF;
+    font-family: Muli;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px; /* 133.333% */
+}
+.div3 {
+    margin: 3vh auto;
+    margin-top: 8px;
+    background-color: white;
+}
+.box__title {
+    list-style: none;
+    display: flex;
+    height: 35vh;
+    justify-content: space-around;
+}
+.box__title__list {
+    width: 45%;
+    gap: 20px;
+    display: flex;
+    align-items: center;
+    
+}
+.box__title__list__img {
+    border-radius: 50%;
+    border: 2px solid white;
+}
+.box__title__list__text1 {
+    color: #FFF;
+    font-family: Muli;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px; /* 218.182% */
+}
+.box__title__list__span {
+    color: rgba(255, 255, 255, 0.85);
+    font-family: Mulish;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 48px; /* 266.667% */
+}
+.box__title__list__text2 {
+    color: rgba(255, 255, 255, 0.90);
+    font-family: Muli;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 157.895% */
+}
+.Tyupograph {
+    width: 80%;
+    margin: 10vh auto;
+    gap: 25px;
+}
+.Tyupograph__inline__text {
+    text-align: center;
+    color: #000;
+    font-family: Muli;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px; /* 155.556% */
+}
+.Tyupograph__inline__ul {
+    width: 100%;
+    display: flex;
+    list-style: none;
+}
+.Tyupograph__inline__ul__li__img {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 25vw;
+}
+.div3 {
+    width: 5vw;
+    height: 0.2vh;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: white;
+    margin: 2vw auto; 
+}
+.Tyupograph__inline__ul__li__h3 {
+    color: #000;
+    font-family: Muli;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 700;
+    margin-left: 20px;
+    line-height: 32px; /* 152.381% */
+}
+.Tyupograph__inline__ul__li__text {
+    color: #7D7987;
+    font-family: Muli;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    margin-left: 20px;
+    line-height: 28px; /* 175% */
+}
+.textt {
+    color: #4089ED;
+    font-family: Muli;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 600;
+    margin-top: 40px;
+    margin-left: 20px;
+    line-height: 28px; /* 164.706% */
+}
+.divv {
+    width: 20%;
+    height: 100px;
+    margin: 20px auto;
+}
+.button2 {
+    width: 200px;
+    height: 56px;
+    flex-shrink: 0;
+    border-radius: 55px;
+    border: 1.4px solid #458FF6;
+    color: #458FF6;
+    font-family: Muli;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px; 
+}
+.footer {
+    width: 100%;
+    display: flex;
+    fill: linear-gradient(183deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+    background-color: #458FF6;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 40px;
+}
+.footer__inline__Trafalgar {
+    list-style: none;
+    width: 22%;
+}
+.footer__inline__Company {
+    list-style: none;
+    width: 22%;
+    margin-left: 25px;
+}
+.footer__inline__Region {
+    list-style: none;
+    width: 22%;
+}
+.footer__inline__Help {
+    list-style: none;
+    width: 22%;
+}
+.footer__inline__Company__li {
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px; /* 155.556% */
+}
+.footer__inline__Region__li {
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px; /* 155.556% */
+}
+.footer__inline__Help__li {
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px; 
+
+}
+.footer__inline__Trafalgar__text {
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px; 
+    margin-top: 20px;
+}
+.footer__inline__Trafalgar__text2 {
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px; 
+    margin-top: 15px;
+}
+.footer__inline__Trafalgar__span {
+    width: 41px;
+    height: 41px;
+    background-color: white;
+    border-radius: 50%;
+    /* padding: 10px; */
+    font-size: 30px;
+    color: #458FF6;
+    display: inline-block;
+    padding-left: 12px;
+    padding-top: 3px;
+}
+.footer__inline__Trafalgar__h3 {
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 15px;
+}
+.one {
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+ 
